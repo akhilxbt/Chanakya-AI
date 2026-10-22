@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-ai-support-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node tests/run-tests.mjs",
+    "eval": "node evals/run-evals.mjs",
+    "ingest": "node scripts/ingest-docs.mjs",
+    "reindex": "node scripts/reindex.mjs",
+    "health": "node scripts/health-check.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.58.0",
+    "next": "14.2.35",
+    "pg": "^8.13.0",
+    "pg-boss": "^9.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "unpdf": "^1.9.0",
+    "zod": "^3.23.8"
+  },
+  "overrides": {
+    "braces": "3.0.3",
+    "uuid": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  }
+}

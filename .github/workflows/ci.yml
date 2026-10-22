@@ -1,0 +1,24 @@
+name: AI Support Assistant CI & Evaluation Gates
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify-and-eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run Ingestion Smoke Check
+        run: node scripts/ingest-docs.mjs
+      - name: Run Unit, Integration & Security Tests
+        run: node tests/run-tests.mjs
+      - name: Run Golden-Set Evaluation Gates (>=90% Hit Rate, >=95% Citation Accuracy)
+        run: node evals/run-evals.mjs
+      - name: Run Health Check
+        run: node scripts/health-check.mjs

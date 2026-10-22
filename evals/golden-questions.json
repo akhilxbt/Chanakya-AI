@@ -1,0 +1,86 @@
+[
+  {
+    "id": "GQ-01",
+    "question": "How do I solve duplicate records in Branch Summary?",
+    "context": { "module": "Reports", "page": "Branch Summary" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Duplicate Records Troubleshooting"
+  },
+  {
+    "id": "GQ-02",
+    "question": "What does error ERR_DUP_LEDGER_KEY mean and how do I fix it?",
+    "context": { "module": "Reports", "page": "Branch Summary" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Duplicate Records Troubleshooting"
+  },
+  {
+    "id": "GQ-03",
+    "question": "How do I create a new user account?",
+    "context": { "module": "Users", "page": "Provisioning" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Creating a New User Account"
+  },
+  {
+    "id": "GQ-04",
+    "question": "How do I resolve ERR_SSO_CLAIM_MISMATCH during sign-in?",
+    "context": { "module": "Users", "page": "Provisioning" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "ERR_SSO_CLAIM_MISMATCH"
+  },
+  {
+    "id": "GQ-05",
+    "question": "Which SQL function backs POST /api/v2/reports/reconcile?",
+    "context": { "module": "API & SQL", "page": "Endpoints" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Reconciliation API"
+  },
+  {
+    "id": "GQ-06",
+    "question": "How do I export the Branch Summary report to CSV or Signed PDF?",
+    "context": { "module": "Reports", "page": "Branch Summary" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Exporting CSV and Signed PDF"
+  },
+  {
+    "id": "GQ-07",
+    "question": "How do I check Dealer Branch Summary commission settlement payouts?",
+    "context": { "module": "Dealer", "page": "Branch Summary" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Commission Settlement"
+  },
+  {
+    "id": "GQ-08",
+    "question": "What should I do when ERR_RECON_LOCK_TIMEOUT occurs?",
+    "context": { "module": "API & SQL", "page": "Endpoints" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Reconciliation API"
+  },
+  {
+    "id": "GQ-09",
+    "question": "What are the prerequisites for viewing the Reports Branch Summary screen?",
+    "context": { "module": "Reports", "page": "Branch Summary" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Overview"
+  },
+  {
+    "id": "GQ-10",
+    "question": "How do I fix ERR_SCHEMA_HEADER_MISSING on POST /api/v2/imports/validate?",
+    "context": { "module": "API & SQL", "page": "Endpoints" },
+    "expectedStatus": "answered",
+    "expectedSectionSubstring": "Bulk Import Validation API"
+  },
+  {
+    "id": "GQ-11",
+    "question": "How do I configure orbital thrusters on a deep space probe?",
+    "context": { "module": "Reports", "page": "Branch Summary" },
+    "expectedStatus": "insufficient_evidence",
+    "expectedSectionSubstring": null
+  },
+  {
+    "id": "GQ-12",
+    "question": "I want to talk to a human support agent right now",
+    "context": { "module": "Reports", "page": "Branch Summary" },
+    "expectedStatus": "escalation_recommended",
+    "expectedSectionSubstring": null
+  }
+]
